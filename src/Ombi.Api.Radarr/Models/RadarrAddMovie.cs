@@ -20,5 +20,8 @@ namespace Ombi.Api.Radarr.Models
         public string titleSlug { get; set; }
         public int year { get; set; }
         public string minimumAvailability { get; set; }
+        
+                // V3 Property
+        public int languageProfileId { get; set; }
     }
 }
